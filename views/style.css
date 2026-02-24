@@ -166,3 +166,118 @@ input, select, textarea{
     margin-bottom: 30px;
 }
 
+/*-------------------------------------------------------------
+detail.html
+-------------------------------------------------------------*/
+#goalDetail {
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/* Goal Detail Header */
+.goal-detail-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 30vh;
+    border-radius: 30px;
+    border: 1px solid #8954F3;
+}
+
+.goal-detail-header h2 {
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+/* Goal Detail Info Section */
+.goal-detail-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #898989;
+    margin-left: 0;
+}
+
+.goal-detail-info p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Goal Detail Description Section */
+.goal-detail-description {
+    background-color: #D9D9D9;
+    color: #141414;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.goal-detail-description h2 {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+/* Detail Buttons */
+.detailButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+    padding: 0 10px;
+    gap: 20px;
+    align-items: center;
+    max-width: 100%;
+}
+
+.detailButtonContainer button {
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 160px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.detailButtonContainer button svg {
+    margin: 10px 0 0 0;
+    display: block;
+}
+
+.detailButtonContainer button p {
+    margin-top: 5px;
+}
+
+.editButton {
+    background-color: rgba(137, 84, 243, 0.6);
+    box-shadow: 0 2px 40px #8954F3;
+    border: 1px solid #8954F3;
+}
+.detailButtonContainer .editButton svg {
+    margin-left: 30px;
+}
+
+.deleteButton {
+    background-color: rgba(255, 34, 34, 0.6);
+    box-shadow: 0 2px 40px #ff2222;
+    border: 1px solid #ff2222;
+}
+.detailButtonContainer .deleteButton svg {
+    margin-left: 15px;
+}
+
+.backButton {
+    background-color: rgba(164, 164, 164, 0.6);
+    box-shadow: 0 2px 40px #A4A4A4;
+    border: 1px solid #A4A4A4;
+}
+.detailButtonContainer .backButton svg {
+    margin-left: 20px;
+}
