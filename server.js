@@ -3,10 +3,10 @@ const handleApiGoals = require('./routes/apiGoals');
 const handlePages = require('./routes/pages');
 
 const server = http.createServer((req, res) => {
-  // 1. Zkusíme, jestli jde o API požadavek
+  // 1. Zkouška jestli jde o API
   if (handleApiGoals(req, res)) return;
 
-  // 2. Pokud ne, zkusíme, jestli jde o stránku (HTML)
+  // 2. Zkouška jestli jde o HTML stránku
   if (handlePages(req, res)) return;
 
   // 3. Pokud ani jedno, vrátíme 404

@@ -1,2 +1,0 @@
-1. commit
-Uprava z větve administrace

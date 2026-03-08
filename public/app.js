@@ -1,3 +1,5 @@
+//Komunikace se serverem pomocí API
+
 const http = require('http');
 const url = require('url');
 const fs = require('fs');

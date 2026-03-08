@@ -1,3 +1,5 @@
+//Zobrazování statických souborů (HTML, CSS)
+
 const fs = require('fs');
 const path = require('path');
 
@@ -17,7 +19,7 @@ module.exports = (req, res) => {
         const ext = path.extname(filePath);
         let contentType = 'text/html';
 
-        // KLÍČOVÁ ČÁST: Rozpoznání CSS
+        //Rozpoznání CSS
         if (ext === '.css') {
             contentType = 'text/css';
         }
